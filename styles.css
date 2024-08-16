@@ -129,17 +129,17 @@
 }
 
 #rockBtn{
-    background: url('/images/Rock-happy.png') center no-repeat;
+    background: url('images/Rock-happy.png') center no-repeat;
     background-size: contain;
 }
 
 #paperBtn{
-    background: url('/images/Paper-happy.png');
+    background: url('images/Paper-happy.png');
     background-size: contain;
 }
 
 #scissorsBtn{
-    background: url('/images/Scissors-happy.png');
+    background: url('images/Scissors-happy.png');
     background-size: contain;
     /* background-color: #a59191; */
 }
