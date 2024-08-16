@@ -48,16 +48,16 @@ const cpuValue = () =>{
 
     if( cpuOption === 0){
         cpuOption = "Rock" ;
-        cpuImg.src = "/images/rock-happy.png" ;
+        cpuImg.src = "images/rock-happy.png" ;
         
     }
     else if( cpuOption === 1){
         cpuOption = "Paper"
-        cpuImg.src = "/images/paper-happy.png" ;
+        cpuImg.src = "images/paper-happy.png" ;
     }
     else{
         cpuOption = "Scissors"
-        cpuImg.src = "/images/scissors-happy.png" ;
+        cpuImg.src = "images/scissors-happy.png" ;
     }
 
     cpuImg.style.display = "block" ;
@@ -119,13 +119,13 @@ choice.forEach( button => {
         userOption = button.value ;
 
         if( userOption === "Rock" ){
-            userImg.src = "/images/rock-happy.png" ;
+            userImg.src = "images/rock-happy.png" ;
         }
         else if( userOption === "Paper"){
-            userImg.src = "/images/paper-happy.png" ;
+            userImg.src = "images/paper-happy.png" ;
         }
         else{
-            userImg.src = "/images/scissors-happy.png" ;
+            userImg.src = "images/scissors-happy.png" ;
         }
 
         userImg.style.display = 'block' ;
