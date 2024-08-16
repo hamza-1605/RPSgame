@@ -8,8 +8,12 @@ const pop = document.getElementById('pop') ;
 
 
 play.addEventListener('click' , () =>{
-    overlay.style.display = 'none' ;
-    pop.style.display = 'none' ;
+    overlay.style.transition = '1s linear' ;
+    pop.style.transition = '0.7s linear' ;
+    overlay.style.opacity = 0 ;
+    pop.style.opacity = 0 ;
+    overlay.style.visibility = 'hidden' ;
+    pop.style.visibility = 'hidden' ;
 })
 
 
